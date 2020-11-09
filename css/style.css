@@ -7,15 +7,11 @@
   float:left;
 }
 
-body{
-  background-color: lightgrey;
-}
-
 .container{
   width: 99%;
   height: 100vh;
-  margin: 10px;
-  background-color: white;
+  margin: 1%;
+  /*background-color: white;*/
 }
 
 .clearfix::after{
@@ -25,37 +21,52 @@ body{
 }
 
 header{
-  width: 100%;
+  width: 96%;
   height: 15%;
   background-color: yellow;
+  margin: 2%;
+}
+main{
+  margin: 2%;
 }
 aside.left-col{
   width: 15%;
   height: 500px;
   background-color: pink;
+  margin: 0 2% ;
 }
 .mainbox{
-  width: calc(100% - 30%);
+  width: calc(100% - 38%);
   height: 800px;
   background-color: violet;
 }
 main .right-col{
   width: 15%;
   height: 500px;
-  background-color: pink;
+  /*background-color: pink;*/
+  margin: 0 2%;
 }
 .topbox{
   width:100%;
   height: 33%;
   background-color: purple;
+  /*margin-top: 1%;*/
+}
+.midbox{
+  width:100%;
+  height: 33%;
+  background-color: purple;
+  margin-top: 5%;
 }
 .botbox{
   width:100%;
   height: 33%;
   background-color: purple;
+  margin-top: 5%;
 }
 footer{
   width: 100%;
   height: 10%;
   background-color: lightblue;
+  margin-bottom: 1%;
 }
